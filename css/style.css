@@ -1,82 +1,45 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #d4d0d0;
-    color: #333;
-    margin: 0px;
-    padding: 0px;
-    
+.product_parent {
+   border: 1px solid black;
+   margin: 1px;
+   padding: 5px;
+   /*text-align: center;*/
  }
-
- header{
-    background-color: #d10000;
-    
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: none;
-    color:white;
-    text-align: center;
-    /*padding: 10px;*/
+ .product_child {
+   display: inline-block;
+   border: 1px solid red;
+   border-radius:5px;
+   padding: 5px;
+   
    
  }
- #p1{
-    padding-bottom: 20px;
+ body{
+   margin: 0px;
+   padding: 0px;
  }
+ 
 
- h2{
-    color: #4CAF50;
-    text-align: center;
-    padding: 10px;
- }
+ header{
+   background-color: chocolate;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: none;
+   color:white;
+   text-align: center;
+   /*padding: 10px;*/
+  
+}
+#p1{
+   padding-bottom: 20px;
+}
 
- #product_1{
-    margin:auto;
-    padding: 10px;
-    width: 600px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
- }
-
- #product_2{
-    padding: 10px;
-    margin:auto;
-    width: 600px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-top: 30px;
- }
-
- section{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    margin:auto;
-     }
-
- img{
-    max-width: 100%;
-    height:auto;
- }
-
- .email-field{
-    margin-bottom: 10px;
- }
-
- button{
-    background-color: #4CAF50;
-    color: #fff;
-    border:none;
-    border-radius: 5px;
-    padding: 10px;
- }
 
  .footer{
-    margin-top: 20px;
-    margin-bottom:3px;
-    padding: 15px;
-    background-color: #000000;
-    border-radius: 1px;
-    text-align: center;
-    color: #fff;
-    box-shadow: 5px 5px gray;
- }
+   margin-top: 20px;
+   padding: 15px;
+   background-color: #000000;
+   border-radius: 1px;
+   text-align: center;
+   color: #fff;
+   box-shadow: 2px 2px gray;
+}
